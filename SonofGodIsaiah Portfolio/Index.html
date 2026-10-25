@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <title>My Website</title>
+  </head>
+
+  <body class="bg-white min-vh-100">
+    <!-- ==================================================
+         LOADING SCREEN
+    ================================================== -->
+
+    <div id="loader-container">
+      <div class="progress-wrapper">
+        <div class="progress-meta">
+          <span class="percentage-text" id="percentage-label"> 0% </span>
+        </div>
+
+        <div
+          class="progress-track"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          id="accessibility-track"
+        >
+          <div class="progress-fill" id="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Website start here -->
+
+    <section id="Navbar-nav">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark" href="#"
+            >SonofGod<span style="color: #2563eb">Isaiah</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars text-dark" style="font-size: 30px"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Banner">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="Banner">
+      <div class="banner-glow banner-glow-one"></div>
+      <div class="banner-glow banner-glow-two"></div>
+
+      <div class="container-fluid">
+        <div class="row align-items-center gy-5">
+          <div class="col-12 col-lg-6 py-4 text-dark banner-copy">
+            <p class="fs-6 fw-bold banner-tag">Hi I'm</p>
+            <p class="fs-3 fw-bold banner-title">
+              SonofGod<span style="color: #2563eb">Isaiah</span> a Full Stack
+              Developer
+            </p>
+            <p class="fs-6 banner-description">
+              I build modern, responsive and user-friendly websites that help
+              ideas come to life. I'm passionate about clean code, great design
+              and continuous learning.
+            </p>
+
+            <div class="hero-section">
+              <a class="btn rounded-pill btn-primary" href="#projects"
+                >View my Project <i class="fas fa-arrow-right"></i
+              ></a>
+              <a
+                class="btn rounded-pill border-primary text-dark"
+                href="#contacts"
+                >Contact Me <i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div
+              class="d-flex gap-3 justify-content-start my-3 fs-5 banner-social"
+            >
+              <i class="fab fa-github"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-x-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 banner-visual">
+            <div class="profile-frame">
+              <div class="profile-ring"></div>
+              <img
+                src="WhatsApp Image 2026-10-01 at 5.03.53 PM.jpeg"
+                alt="Profile Image"
+                class="img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="container-fluid about">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-12 col-lg-5">
+              <a href="#">
+                <img
+                  src="About.jpeg"
+                  alt="Portrait for the About section"
+                  class="about-img"
+                />
+              </a>
+            </div>
+            <div class="col-12 col-lg-7 py-3">
+              <div class="d-flex flex-wrap">
+                <a
+                  href="#"
+                  class="about-title text-decoration-none text-dark fs-5 fw-bold"
+                  >About</a
+                >
+              </div>
+              <p class="about-heading fs-3 text-dark fw-bold motion-reveal">
+                A little about me
+              </p>
+              <p class="about-description fs-6 text-dark motion-reveal">
+                I am a passionate and dedicated Full Stack Developer with a
+                strong focus on creating modern, responsive, and user-friendly
+                websites. With a keen eye for design and a commitment to clean
+                code, I strive to bring ideas to life through innovative web
+                solutions. I am constantly learning and evolving in the
+                ever-changing world of web development, ensuring that my skills
+                remain at the forefront of industry trends.
+              </p>
+
+              <div class="row">
+                <div class="col-md-4 motion-reveal">
+                  <div class="d-flex gap-1">
+                    <i class="text-dark fs-3 fas fa-location-dot"></i>.
+                    <p
+                      class=""
+                      style="font-size: 12px; color: rgba(17, 17, 17, 0.65)"
+                    >
+                      Location <br />
+                      <span class="text-dark">Nigeria</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 motion-reveal">
+                  <div class="d-flex gap-1">
+                    <i class="text-dark fs-3 fa fa-graduation-cap"></i>.
+                    <p
+                      class=""
+                      style="font-size: 12px; color: rgba(17, 17, 17, 0.65)"
+                    >
+                      Education <br />
+                      <span class="text-dark">Self-taught / Ongoing</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 motion-reveal">
+                  <div class="d-flex gap-1">
+                    <i class="text-dark fs-3 fa fa-code"></i>.
+                    <p
+                      class=""
+                      style="font-size: 12px; color: rgba(17, 17, 17, 0.65)"
+                    >
+                      Focus <br />
+                      <span class="text-dark">Full-Stack Development</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skill">
+      <div class="container-fluid skill-section py-5">
+        <div class="container">
+          <div class="d-flex flex-wrap">
+            <a
+              href="#"
+              class="skill-title text-decoration-none text-dark fs-5 fw-bold"
+              >My Skills</a
+            >
+          </div>
+          <p class="fs-5 text-dark fw-bold mt-3 text-start">
+            SKILLS I HAVE LEARNT
+          </p>
+          <div class="row">
+            <div class="col-12 col-md-6 my-4 skill-item">
+              <p class="fs-6 text-dark fw-bold">HTML</p>
+              <div class="square">
+                <i class="fab fa-html5 fs-1" style="color: orangered;"></i>
+              </div>
+              <div
+                class="progress mt-4"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 90%">90%</div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 my-4 skill-item">
+               <p class="fs-6 text-dark fw-bold">CSS</p>
+              <div class="square">
+                <i class="fab fa-css3-alt fs-1" style="color: dodgerblue"></i>
+              </div>
+               <div
+                class="progress mt-4 "
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
+            </div>
+            
+
+            <div class="col-12 col-md-6 my-4 skill-item">
+              <p class="fs-6 text-dark fw-bold">BOOTSTRAP</p>
+              <div class="square">
+                <i class="fab fa-bootstrap fs-1" style="color: #851685dc"></i>
+              </div>
+              <div
+                class="progress mt-4"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 95%">95%</div>
+              </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 my-4 skill-item">
+              <p class="fs-6 text-dark fw-bold">JAVASCRIPT</p>
+              <div class="square">
+                <i class="fab fa-js fs-1" style="color: yellow"></i>
+              </div>
+              <div
+                class="progress mt-4"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Showcase Section -->
+
+    <section id="projects" class="py-3">
+      <div class="container">
+        <div class="d-flex flex-wrap">
+          <a
+            href="#"
+            class="project-title text-decoration-none text-dark fs-5 fw-bold"
+            >My Featured Projects</a
+          >
+        </div>
+        <div class="row justify-content-center my-3">
+          <div class="col-md-5 ms-auto me-auto">
+            <div class="card" style="width: 70%">
+              <div class="card-body">
+                <h5 class="card-title">My Glassmorphism Form</h5>
+                <p class="card-text">
+                  A modern, stylish Sign Up and Sign In user interface featuring
+                  a glass-like transparency effect. Built using clean HTML
+                  layouts and precise styling
+                </p>
+                <div class="btn-group">
+                  <a
+                    href="https://github.com/sonofgodisaiah711-create/Isaiah-Glassmorphism-Form"
+                    target="_blank"
+                    class="btn btn-primary fs-6 rounded-pill"
+                    type="submit"
+                  >
+                    My GitHub
+                  </a>
+
+                  <a
+                    href="https://sonofgodisaiah711-create.github.io/Isaiah-Glassmorphism-Form/"
+                    target="_blank"
+                    class="btn btn-primary fs-6 rounded-pill"
+                    type="button"
+                    >Form Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="ms-5">
+      <div class="container-fluid py-4">
+        <div class="d-flex flex-wrap">
+          <a
+            href="#"
+            class="project-title text-decoration-none text-dark fs-6 fw-bold"
+            >GET IN TOUCH</a
+          >
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 motion-reveal">
+            <p class="fs-5 fw-bold">Let's Work Together</p>
+            <p class="fs-6">
+              I'm always open to discussing new opportunities, interesting
+              projects and collaboration. Feel free to reach out!
+            </p>
+          </div>
+
+          <div class="col-12 col-md-3 motion-reveal">
+            <div class="d-flex gap-2">
+              <i class="fas fa-envelope fs-4"></i>
+              <p class="fs-6 text-muted">
+                Email <br />
+                sonofgodisaiah711@gmail.com
+              </p>
+            </div>
+
+            <div class="d-flex gap-2">
+              <i class="fas fa-location-dot fs-4"></i>
+              <p class="fs-6 text-muted">
+                Location <br />
+                Lagos, Nigeria
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 motion-reveal">
+            <div class="d-flex gap-2">
+              <i class="fas fa-phone fs-4"></i>
+              <p class="fs-6 text-muted">
+                Phone Number <br />
+                +234 703 907 4911
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <form
+          class="row g-3 mt-3 motion-reveal"
+          action="https://formsubmit.co/sonofgodisaiah711@gmail.com"
+          method="POST"
+        >
+          <div class="col-12 col-md-6">
+            <label for="contact-name" class="form-label">Name</label>
+            <input
+              id="contact-name"
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="contact-email" class="form-label">Email</label>
+            <input
+              id="contact-email"
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary rounded-pill ">
+              Send Message <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="border-top py-3">
+      <div class="container">
+        <div class="d-flex justify-content-between flex-wrap">
+          <p class="motion-reveal">&copy; 2026 @ SonofGodIsaiah. All rights reserved.</p>
+          <p class="motion-reveal">
+            Special Thanks to God for His Grace, Blessings and Wisdom to
+            complete this project.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
